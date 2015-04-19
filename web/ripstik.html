@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Free Snow Bootstrap Website Template | Contact :: w3layouts</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href="css/stuffs.css" rel='stylesheet' type='text/css' />
@@ -42,7 +41,25 @@
             });
         });
      </script>
- </head>
+     <!-- Add fancyBox main JS and CSS files -->
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+			});
+		});
+		</script>
+</head>
 <body>
 	<div class="header">
 		<div class="container">
@@ -82,12 +99,12 @@
   							</ul>
   							<script type="text/javascript" src="js/myjs2.js"></script>
   						</div>
-					</div>				
+					</div>			
 	    		    <div class="clear"></div>
 	    	    </div>
 	            <div class="header_right">
 	    		  <!-- start search-->
-				   <div class="search-box">
+				  <div class="search-box">
 							<div id="sb-search" class="sb-search">
 								<form>
 									<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
@@ -102,7 +119,7 @@
 						<script>
 							new UISearch( document.getElementById( 'sb-search' ) );
 						</script>
-				    <ul class="icon1 sub-icon1 profile_img">
+				   <ul class="icon1 sub-icon1 profile_img">
 					 <li><a class="active-icon c1" href="#"> </a>
 						<ul class="sub-icon1 list">
 						  <div class="product_control_buttons">
@@ -131,44 +148,27 @@
      <div class="main">
       <div class="shop_top">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-7">
-				  <div class="map">
-					<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="color:#666;text-align:left;font-size:12px"></a></small>
-				  </div>
+			<div class="row team_box">
+				
+				<div class="col-md-3 team1 shit">
+				  
+				   
+					<h3 class="m_2">RIPSTIK</h3>
+				    <p class="m_6">Рипстик (на английски Ripstik) е най-новият скейтборд, който съчетава в себе си също така елементи на сноуборд и сърфборд. Той наподобява Дъ Уейв (The Wave), друг скейтборд, патентован през 2004 година. Рипстик е патентован през 2007 година и има по-дълга тръба в средата, но по-малка платформа. Колелата му са направени от полиуретан с диаметър 78мм.
+Рипстик има само две колела за разлика от скейтборда и всяко от тях може да се върти независимо от другото, не трябва да се слиза от него, за да му се предаде ускорение, състои се от две малки платформи вместо една цяла и е много гъвкав - може да се извива с движение на крака нагоре-надолу. Може да прави резки завои.</p>
+					<a  href="#small-dialog3"><img src="images/ripstik.jpg" class="img-responsive" title="continue" alt=""/></a>
 				</div>
-				<div class="col-md-5">
-					<p class="m_8">В края на 80-те и началото на 90-те години на миналия век в историята на спорта навлиза едно ново течение, наречено "екстремни спортове". Те съчетават спортове с повишен риск, нестандартно мислене и поведение. Много от тази група спортове са съществували още в древността, под формата на древен ритуал или местен обичай, в който са се доказвали смелост и безстрашие.</p>
-					<div class="address">
-				                <p>500 Lorem Ipsum Dolor Sit,</p>
-						   		<p>22-56-2-9 Sit Amet, Lorem,</p>
-						   		<p>USA</p>
-				   		<p>Phone:(00) 222 666 444</p>
-				   		<p>Fax: (000) 000 00 00 0</p>
-				 	 	<p>Email: <span>support[at]snow.com</span></p>
-				   		<p>Follow on: <span>Facebook</span>, <span>Twitter</span></p>
-				   </div>
+				<div class="col-md-3 team1">
+				<div class="col-md-8">
+					<ul class="team_list">
+					 <h4>Видео</h4>
+		             <iframe width="700" height="500"
+src="https://www.youtube.com/embed/qDYMi6R1LL8">
+</iframe>
+		          </ul>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12 contact">
-				  <form method="post" action="contact-post.html">
-					<div class="to">
-                     	<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-					 	<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-					 	<input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
-					</div>
-					<div class="text">
-	                   <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
-	                   <div class="form-submit">
-			           <input name="submit" type="submit" id="submit" value="Submit"><br>
-			           </div>
-	                </div>
-	                <div class="clear"></div>
-                   </form>
-			     </div>
-		    </div>
-	     </div>
+		</div>
 	   </div>
 	  </div>
 	  <div class="footer">
@@ -217,7 +217,8 @@
 							  <li class="pinterest"><a href="#"><span> </span></a></li>	
 							  <li class="youtube"><a href="#"><span> </span></a></li>										  				
 						    </ul>
-		   				</ul>
+		   					
+						</ul>
 					</div>
 				</div>
 				<div class="row footer_bottom">
