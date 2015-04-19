@@ -22,6 +22,7 @@ $(window).bind('resize orientationchange', function() {
 });
 
 var adjustMenu = function() {
+	//console.log("lol wtf why");
 	if (ww < 800) {
 		$(".toggleMenu").css("display", "inline-block");
 		if (!$(".toggleMenu").hasClass("active")) {

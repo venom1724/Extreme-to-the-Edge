@@ -50,7 +50,7 @@ var adjustMenuz = function() {
 
 
 var adjustMenu = function() {
-		console.log("bdf");
+
 		$(".toggleMenuz").css("display", "inline-block");
 		if (!$(".toggleMenuz").hasClass("active")) {
 			$(".nava").hide();
@@ -63,7 +63,31 @@ var adjustMenu = function() {
 			e.preventDefault();
 			$(this).parent("li").toggleClass("hover");
 		});
-	
+
+		if(ww>=800){
+			$(".toggleMenu").css("display", "none");
+			$(".nav").show();
+			$(".nava").css("margin","0 0 0");
+		}
+
+		if(ww<800){
+
+		$(".toggleMenu").css("display", "inline-block");
+		if (!$(".toggleMenu").hasClass("active")) {
+			$(".nav").hide();
+		} else {
+			$(".nav").show();
+		}
+		$(".nav li").unbind('mouseenter mouseleave');
+		$(".nav li a.parent").unbind('click').bind('click', function(e) {
+			// must be attached to anchor element to prevent bubbling
+			e.preventDefault();
+			$(this).parent("li").toggleClass("hover");
+		});
+
+		$(".nava").css("margin","150px 0 0");
+
+		}
 }
 
 asd();
