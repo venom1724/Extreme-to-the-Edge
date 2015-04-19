@@ -64,18 +64,6 @@ var adjustMenu = function() {
 			$(this).parent("li").toggleClass("hover");
 		});
 	
-	/*
-	else if (ww >= 800) {
-		$(".toggleMenuz").css("display", "none");
-		$(".nava").show();
-		$(".nava li").removeClass("hover");
-		$(".nava li a").unbind('click');
-		$(".nava li").unbind('mouseenter mouseleave').bind('mouseenter mouseleave', function() {
-		 	// must be attached to li so that mouseleave is not triggered when hover over submenu
-		 	$(this).toggleClass('hover');
-		});
-	}
-	*/
 }
 
 asd();
