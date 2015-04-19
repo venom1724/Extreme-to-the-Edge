@@ -47,4 +47,3 @@ var adjustMenu = function() {
 		});
 	}
 }
-
